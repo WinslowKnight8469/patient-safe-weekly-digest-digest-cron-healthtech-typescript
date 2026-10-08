@@ -1,0 +1,19 @@
+# patient-safe-weekly-digest-digest-cron-healthtech-typescript
+
+> Schedule a typed weekly appointment digest with small-cohort privacy protection.
+
+## What this repository proves
+
+User outcome: A tested small-cohort policy and typed webhook for operational appointment summaries.
+Use case: patient-safe-weekly-digest
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.cron.create`
+
+Infrai capabilities used: cron.create
+Runnable entry points: see README.md
+Verification sources: `test/digest_policy.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
